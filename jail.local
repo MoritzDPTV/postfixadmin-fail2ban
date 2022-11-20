@@ -1,0 +1,11 @@
+### REST OF YOUR LOCAL JAIL FILE ###
+
+
+### [...] ###
+
+
+[postfixadmin]
+enabled  = true
+port     = http,https
+filter   = postfixadmin
+logpath  = /var/log/apache2/postfixadmin_error.log
