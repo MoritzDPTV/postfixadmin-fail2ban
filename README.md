@@ -1,5 +1,5 @@
 # Fail2Ban Jail and Filter Configuration for PostfixAdmin
-In order to secure the login interfaces from PostfixAdmin (setup.php, login.php, users/login.php) against brute-force attacks, [Fail2Ban](https://www.fail2ban.org/) can be used. The following configurations are tested with Fail2Ban v0.11.1 and PostfixAdmin v3.3.11.
+In order to secure the login interfaces from [PostfixAdmin](https://github.com/postfixadmin/postfixadmin) (setup.php, login.php, users/login.php) against brute-force attacks, [Fail2Ban](https://github.com/fail2ban/fail2ban) can be used. The following configurations are tested with Fail2Ban v0.11.1 and PostfixAdmin v3.3.11.
 
 ## Configure the Local Jail
 Append the new jail to the end of the local jail file */etc/fail2ban/jail.local*:
